@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>PINK FURY – Coming Soon</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&amp;display=swap" rel="stylesheet"/>
+<style>
+    
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background-color: #000;
+  background-image: url('https://www.transparenttextures.com/patterns/dark-mosaic.png');
+  background-size: cover;
+  background-repeat: repeat;
+  color: #f0f0f0;
+  overflow-x: hidden;
+  cursor: url('weed.png'), auto;
+}
+
+    .neon {
+      color: #ff00cc;
+      text-shadow: 0 0 3px #ff00cc, 0 0 8px #33ff33, 0 0 18px #ff00cc;
+    }
+    .section {
+      padding: 80px 20px;
+      text-align: center;
+      position: relative;
+    }
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+    }
+    h1 {
+      font-size: 4rem;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+    .btn {
+      background: #ff00cc;
+      color: black;
+      padding: 15px 30px;
+      border: none;
+      font-weight: bold;
+      margin-top: 20px;
+      cursor: pointer;
+      box-shadow: 0 0 8px #33ff33;
+    }
+    .btn:hover {
+      background: #33ff33;
+      color: #000;
+    }
+    .links a {
+      color: #33ff33;
+      text-decoration: none;
+      font-size: 1.2rem;
+      margin: 0 15px;
+    }
+    footer {
+      padding: 20px;
+      background: #111;
+      color: #777;
+      font-size: 0.9rem;
+    }
+    .weed {
+      position: absolute;
+      width: 60px;
+      opacity: 0.2;
+      animation: float 15s infinite ease-in-out;
+    }
+    .weed:nth-child(odd) {
+      animation-duration: 20s;
+      left: 10%;
+    }
+    .weed:nth-child(odd) {
+      animation-duration: 20s;
+      right: 10%;
+    }
+    @keyframes float {
+      0% { transform: translateY(0) rotate(0deg); }
+      50% { transform: translateY(-20px) rotate(10deg); }
+      100% { transform: translateY(0) rotate(0deg); }
+    }
+  
+.slogan-glow {
+  font-size: 1.8rem;
+  color: #33ff33;
+  text-shadow:
+    0 0 5px #33ff33,
+    0 0 10px #ff00cc,
+    0 0 20px #ff00cc,
+    0 0 30px #33ff33;
+  animation: flicker 2.5s infinite alternate;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.pulse {
+  animation: pulseFade 2s ease-in-out infinite;
+}
+
+@keyframes flicker {
+  0% { opacity: 1; }
+  50% { opacity: 1; text-shadow: 0 0 10px #ff00cc, 0 0 20px #33ff33; }
+  100% { opacity: 1; }
+}
+
+@keyframes pulseFade {
+  0% { text-shadow: 0 0 5px #ff00cc, 0 0 10px #33ff33; }
+  50% { text-shadow: 0 0 20px #ff00cc, 0 0 30px #33ff33; }
+  100% { text-shadow: 0 0 5px #ff00cc, 0 0 10px #33ff33; }
+}
+
+
+.weed {
+  position: absolute;
+  width: 80px;
+  opacity: 0.8;
+  filter: hue-rotate(90deg) drop-shadow(0 0 6px #33ff33);
+  animation: float 10s infinite ease-in-out;
+  z-index: 10;
+  pointer-events: none;
+}
+.weed:nth-child(odd) {
+  animation-duration: 20s;
+  left: 10%;
+}
+.weed:nth-child(even) {
+  animation-duration: 20s;
+  right: 10%;
+}
+</style>
+</head>
+<body>
+<section class="hero section">
+  <img src="weed.png" class="weed" style="top: 0%; left: 5%;" />
+  <img src="weed.png" class="weed" style="top: 0%; right: 5%;" />
+<img class="weed" src="weed.png" style="top: 39%; left: 9%;"/>
+<img class="weed" src="weed.png" style="top: 39%; right: 10%;"/>
+<h1 class="neon">GET READY FOR THE FURY</h1>
+<h2>$PINKFURY is coming to the BNB Chain</h2>
+<p>0% Tax | Community Owned | Cannabis Culture | Chaos Unleashed</p>
+<button class="btn" onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' });">Enter the Fury</button>
+</section>
+<section class="section" style="background: rgba(0, 0, 0, 50);">
+<h2 class="neon pulse">🔥 WHY $PINKFURY?</h2>
+<p class="slogan-glow">
+    “Light up your gains. Fuel your future with $PF – the high-yield token that hits harder.”
+  </p>
+</section>
+<section class="section" id="about">
+<h2 class="neon">WHAT IS $PINKFURY?</h2>
+<p>
+      A cultural revolution in crypto — merging DeFi with the raw energy of the underground. <br/>
+      💥 0% Buy/Sell Tax<br/>
+      🌿 Cannabis Roots<br/>
+      🔗 Built on BNB Smart Chain<br/>
+      💎 100% Community Driven
+    </p>
+</section>
+<section class="section">
+<h2 class="neon">TOKENOMICS</h2>
+<p>
+      🔥 Total Supply: 500,000 PF <br/>
+      🔒 LP Locked <br/>
+      ✅ Ownership Renounced <br/>
+      🚫 0% Tax
+    </p>
+</section>
+<section class="section">
+<h2 class="neon">ROADMAP</h2>
+<p>
+      ✅ Contract Deployed<br/>
+      ✅ Poster &amp; Brand Reveal<br/>
+      🕒 Website Launch (Now)<br/>
+      🕒 Launch in 6 Months<br/>
+      🕒 Liquidity Lock + Stealth Launch<br/>
+      🕒 Community Airdrops<br/>
+      🕒 Merch Collab<br/>
+      🕒 Cross-Chain Bridge
+    </p>
+</section>
+<section class="section">
+<h2 class="neon">JOIN THE MOVEMENT</h2>
+<div class="links">
+<a href="https://x.com/_Pink_Fury_?t=BG-zlwO54GQ7rAQE2GkA7w&amp;s=09" target="_blank">Twitter</a>
+<a href="https://t.me/+bPrWFhAQShVjODBk" target="_blank">Telegram</a>
+</div>
+</section>
+<footer>
+    © 2025 PINK FURY. All rights reserved.
+  </footer>
+</body>
+</html>
